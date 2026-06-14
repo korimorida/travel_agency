@@ -1,4 +1,5 @@
 Архитектура проекта
+```
 client-app/ ├── public/ │ ├── index.html
 │ └── favicon.ico
 ├── src/ │ ├── assets/
@@ -26,7 +27,7 @@ client-app/ ├── public/ │ ├── index.html
 ├── vite.config.js
 ├── tsconfig.json
 └── .gitignore
-
+```
 Ключевые компоненты client-app:
 Header — для отображения навигации между страницами (Главная, Туры, Отели и т.д.).
 
@@ -39,8 +40,10 @@ ProductCard — карточка с детальной информацией о
 FilterForm — форма с фильтрами для поиска туров и отелей по разным параметрам (страна, период вылета, длительность и т.д.).
 
 Button — универсальная кнопка для бронирования, добавления в корзину и других действий.
-
-ui-library/ ├── src/ │ ├── Button/
+```
+ui-library/ 
+├── src/ 
+│ ├── Button/
 │ ├── Input/
 │ ├── Card/
 │ ├── ProductCard/
@@ -49,7 +52,7 @@ ui-library/ ├── src/ │ ├── Button/
 │ └── index.ts
 ├── package.json
 └── tsconfig.json
-
+```
 Компоненты ui-library:
 Button — универсальная кнопка для использования в различных частях приложения.
 
